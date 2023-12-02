@@ -6,8 +6,8 @@
 
 html, body {
     color: #FFFFFF;
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 24px;
     font-weight: 400;
     font-family: 'Space Grotesk', sans-serif;
 }
@@ -23,8 +23,10 @@ a {
     border-right: 1px solid #C4C4C4;
   }
 
+/* HEADER */
+
 header {
-    background: url('../Assets/Illustrations/Bathome1.png') center / cover no-repeat;
+    background: url('../Assets/Illustrations/Bathome1.png') right / cover no-repeat;
 }
 
 nav {
@@ -50,4 +52,124 @@ nav > ul > li > a {
 
 nav > ul > li > a:hover {
     text-decoration: underline;
+}
+
+.intro {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.intro h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    display: inline-block;
+    width: 130px;
+    background: linear-gradient(274deg, rgba(137, 0, 8, 0.60) 0%, rgba(252, 232, 216, 0.40) 100%);
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 10px 5px;
+    margin: 5px;
+}
+
+.arrow-down {
+    display: block;
+    width: 30px;
+    margin: 20px auto 0;
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+    
+    html, body {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .container {
+        margin: 0 50px;
+    }
+    header {
+        background-position: center;
+    }
+
+    nav {
+        padding: 30px;
+    }
+
+    nav img {
+        width: 100px;
+    }
+
+    .intro {
+        max-width: 500px;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .intro h1 {
+        margin-top: 15px;
+    }
+
+    .btn-group {
+        margin-top: 24px;
+    }
+    .btn {
+        width: 200px;
+    }
+
+    .arrow-down {
+        width: 50px;
+        margin-top: 100px;
+    }
+}
+
+/* LAPTOP */
+
+@media screen and (min-width: 992px) {
+    .container {
+        margin: 0 102px;
+    }
+
+    nav {
+        padding: 56px 90px 108px;
+    }
+
+    nav img {
+        width: 121px;
+    }
+
+    .intro {
+        max-width: 603px;
+        margin-top: 200px;
+    }
+
+    .intro h1 {
+        margin-top: 20px;
+    }
+
+    .btn-group {
+        margin-top: 48px;
+    }
+
+    .btn {
+        width: 248px;
+    }
+
+    .arrow-down {
+        width: 70px;
+        margin-top: 245px;
+    }
 }
