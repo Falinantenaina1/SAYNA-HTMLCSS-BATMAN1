@@ -19,7 +19,8 @@ a {
 }
 
 .container {
-    margin: 0 20px;
+    width: 80%;
+    margin: 0 auto;
     border-left: 1px solid #C4C4C4;
     border-right: 1px solid #C4C4C4;
   }
@@ -141,9 +142,6 @@ section h2 + p {
         line-height: 28px;
     }
 
-    .container {
-        margin: 0 50px;
-    }
     header {
         background-position: center;
     }
@@ -210,9 +208,6 @@ section h2 + p {
 /* LAPTOP */
 
 @media screen and (min-width: 992px) {
-    .container {
-        margin: 0 102px;
-    }
 
     nav {
         padding: 56px 90px 108px;
