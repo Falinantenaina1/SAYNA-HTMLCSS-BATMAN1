@@ -130,6 +130,14 @@ section h2 + p {
     width: 100%;
 }
 
+.justice{
+    display: block;
+    margin: 0 calc(-20% - 2px);
+}
+
+.justice img {
+    width: 100%;
+}
 
 
 
@@ -201,7 +209,6 @@ section h2 + p {
     .card img {
         display: block;
         max-width: 304px;
-
     }
 }
 
@@ -252,4 +259,9 @@ section h2 + p {
     section h2 + p {
         margin-bottom: 82px;
     }
+
+    .justice{
+        margin: 0 calc(-20% - 82px);
+    }
+
 }
