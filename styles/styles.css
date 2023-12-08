@@ -139,6 +139,62 @@ section h2 + p {
     width: 100%;
 }
 
+.film-carousel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+
+.carousel-slide {
+    display: block;
+    width: 25px;
+}
+
+.film {
+    background: linear-gradient(214deg, rgba(25, 88, 125, 0.34) 6.73%, rgba(237, 222, 191, 0.34) 100.28%);
+    display: flex;
+    width: 420px;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.film-detail {
+    padding: 10px;
+}
+
+.film-poster {
+    width: 100%;
+}
+
+.film-genre {
+    color: #BCBBBD;
+    font-size: 0.55rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.film-title {
+    color: #F2F2F2;
+    font-size: 0.8rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.film-note {
+    font-size: 0.6rem;
+}
+
+.film-note span {
+    color: #F8F184;
+}
+
+.film-synopsis {
+    color:  #F2F2F2;
+    font-size: 0.55rem;
+    line-height: 0.8rem;
+}
+
 
 
 /* TABLET */
@@ -210,6 +266,20 @@ section h2 + p {
         display: block;
         max-width: 304px;
     }
+
+    .film {
+        flex-direction: row;
+        margin: 5px;
+    }
+
+    .film-poster {
+        max-width: 155px;
+    }
+
+    .carousel-slide {
+        width: 30px;
+    }
+
 }
 
 /* LAPTOP */
